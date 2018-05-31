@@ -1,7 +1,6 @@
-name = Airclass
+name : 'Airclass'
 type: module
-description = Supplemental callbacks for Airclass site.
-package = Custom
-core = 8.x
-version = "8.x-1.0"
-package: 'Custom Modules'
+description : 'Supplemental callbacks for Airclass site.'
+core : 8.x
+version : 8.x-1.0
+package : 'Custom Modules'
