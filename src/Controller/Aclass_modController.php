@@ -18,6 +18,6 @@ class Aclass_modController extends ControllerBase {
    */
   public function thankYou() {
     return new JsonResponse (array('status' => 1,'message' => 'OK!'));
-  }
+}
 
 }
