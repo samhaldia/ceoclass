@@ -1,8 +1,8 @@
-aclass_mod_thankyou:
-    pattern: 'thankyou'
+aclass_mod.thankyou:
+    pattern: '/thankyou'
     defaults:
     # What's being returned is the entire response (not HTML, or even if HTML, we don't want additional blocks around it), so use _controller instead of _content.
-        _controller: '\Drupal\aclass_mod\Aclass_modController::thankyou'
+        _controller: '\Drupal\aclass_mod\Controller\Aclass_modController::thankYou'
     requirements:
     # Indicates that the book outline access access system should be invoked.
-        _aclass_mod_thankyou_access: TRUE
+        _access: TRUE
